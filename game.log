@@ -11,3 +11,7 @@
 2026-04-30 11:54:10,095 [GUI] INFO - Game started. Waiting for hand input...
 2026-04-30 11:55:27,224 [GUI] INFO - SCORE! Total score: 1 at 2026-04-30 11:55:27
 2026-04-30 11:55:27,224 [GUI] INFO - New goal position: (397, 288)
+2026-04-30 13:02:12,584 [GUI] INFO - Connected to Redis at localhost:6379
+2026-04-30 13:02:12,584 [GUI] INFO - Game started. Waiting for hand input...
+2026-04-30 13:02:43,123 [GUI] INFO - SCORE! Total score: 1 at 2026-04-30 13:02:43
+2026-04-30 13:02:43,124 [GUI] INFO - New goal position: (477, 349)
