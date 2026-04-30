@@ -1,0 +1,13 @@
+2026-04-30 11:41:15,472 [GUI] INFO - Connected to Redis at localhost:6379
+2026-04-30 11:41:15,473 [GUI] INFO - Game started. Waiting for hand input...
+2026-04-30 11:43:10,724 [GUI] INFO - SCORE! Total score: 1 at 2026-04-30 11:43:10
+2026-04-30 11:43:10,724 [GUI] INFO - New goal position: (449, 50)
+2026-04-30 11:43:38,024 [GUI] INFO - SCORE! Total score: 2 at 2026-04-30 11:43:38
+2026-04-30 11:43:38,024 [GUI] INFO - New goal position: (191, 229)
+2026-04-30 11:43:57,020 [GUI] INFO - Game ended. Final score: 2
+2026-04-30 11:50:33,543 [GUI] INFO - Connected to Redis at localhost:6379
+2026-04-30 11:50:33,544 [GUI] INFO - Game started. Waiting for hand input...
+2026-04-30 11:54:10,094 [GUI] INFO - Connected to Redis at localhost:6379
+2026-04-30 11:54:10,095 [GUI] INFO - Game started. Waiting for hand input...
+2026-04-30 11:55:27,224 [GUI] INFO - SCORE! Total score: 1 at 2026-04-30 11:55:27
+2026-04-30 11:55:27,224 [GUI] INFO - New goal position: (397, 288)
