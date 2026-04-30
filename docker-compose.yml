@@ -1,0 +1,42 @@
+services:
+
+  detection_service:
+    build:
+      context: ./detection_service
+    container_name: detection_service
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - app_network
+
+  tracking_service:
+    build:
+      context: ./tracking_service
+    container_name: tracking_service
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - detection_service
+    networks:
+      - app_network
+
+  gui_service:
+    build:
+      context: ./gui_service
+    container_name: gui_service
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - detection_service
+      - tracking_service
+    ports:
+      - "8000:8000"   # change if your GUI uses another port
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
