@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package hand_service;
+
+// سرویسی که مختصات را دریافت می‌کند
+service HandProcessor {
+  rpc SendPosition (PositionRequest) returns (EmptyResponse) {}
+}
+
+message PositionRequest {
+  float x = 1;
+  float y = 2;
+}
+
+message EmptyResponse {}
